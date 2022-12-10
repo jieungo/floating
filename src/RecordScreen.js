@@ -1,9 +1,21 @@
 import React from 'react';
+import {Text, StyleSheet, View} from 'react-native';
 
 function RecordScreen() {
-    return (
-        <Text>hhhsdfs</Text>
-    )
+  return (
+    <View style={styles.test}>
+      <Text>hhhsdfs</Text>
+    </View>
+  );
 }
 
-export default RecordScreen
+const styles = StyleSheet.create({
+  test: {
+    flex: 1,
+    color: 'black',
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+});
+
+export default RecordScreen;

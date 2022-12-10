@@ -3,6 +3,7 @@ import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
 import FeedScreen from './FeedScreen';
 import RecordScreen from './RecordScreen';
 import ProfileScreen from './ProfileScreen';
+import {SafeAreaView} from 'react-native-safe-area-context';
 
 const Tab = createBottomTabNavigator();
 
