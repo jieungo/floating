@@ -1,6 +1,6 @@
 import React from 'react';
 import {SafeAreaView, StyleSheet} from 'react-native';
-import RootStack from './src/RootStack';
+import RootStack from './src/pages/RootStack';
 
 const App = () => {
   return (
