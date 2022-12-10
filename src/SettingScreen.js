@@ -1,10 +1,10 @@
 import React from 'react';
-import {StyleSheet, Text, View} from 'react-native';
+import {Text, StyleSheet, View} from 'react-native';
 
-function WriteScreen() {
+function SettingScreen() {
   return (
     <View style={styles.wrapper}>
-      <Text>write</Text>
+      <Text>setting</Text>
     </View>
   );
 }
@@ -18,4 +18,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default WriteScreen;
+export default SettingScreen;

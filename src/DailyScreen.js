@@ -1,10 +1,10 @@
 import React from 'react';
 import {StyleSheet, Text, View} from 'react-native';
 
-function WriteScreen() {
+function DailyScreen() {
   return (
     <View style={styles.wrapper}>
-      <Text>write</Text>
+      <Text>daily</Text>
     </View>
   );
 }
@@ -17,5 +17,4 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
 });
-
-export default WriteScreen;
+export default DailyScreen;
